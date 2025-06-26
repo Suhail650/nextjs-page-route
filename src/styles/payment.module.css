@@ -1,0 +1,8 @@
+/* ✅ FIXED: payment.module.css */
+.inputField::placeholder {
+  color: #ccc;
+}
+
+.card {
+  border-radius: 12px;
+}

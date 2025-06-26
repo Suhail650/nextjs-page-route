@@ -1,0 +1,33 @@
+@keyframes shimmer {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
+.skeletonImg,
+.skeletonLine,
+.skeletonButton {
+  background: linear-gradient(to right, #e0e0e0 8%, #f0f0f0 18%, #e0e0e0 33%);
+  background-size: 1000px 100%;
+  animation: shimmer 1.5s infinite linear;
+  border-radius: 6px;
+}
+
+.skeletonImg {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.skeletonLine {
+  height: 14px;
+  margin-bottom: 10px;
+}
+
+.skeletonButton {
+  height: 36px;
+}
