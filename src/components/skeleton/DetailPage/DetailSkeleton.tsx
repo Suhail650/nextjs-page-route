@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/detailSkeleton.module.css";
+import styles from "../../../styles/detailSkeleton.module.css";
 
 const DetailSkeleton: React.FC = () => {
   return (

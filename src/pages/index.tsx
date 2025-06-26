@@ -3,7 +3,7 @@ import Link from "next/link";
 import { IProduct } from "@/interfaces/product";
 import { ProductService } from "@/services/productService";
 import Image from "next/image";
-import styles from "@/styles/home.module.css"; // <-- CSS Module import
+import styles from "../styles/home.module.css";
 
 interface HomeProps {
   limitedProducts: IProduct[];

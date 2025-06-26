@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "@/styles/payment.module.css";
+import styles from "../styles/payment.module.css";
 import React, { useEffect, useState } from "react";
 import {
   BsCreditCard2Front,

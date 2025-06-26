@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "@/styles/skeleton.module.css";
+import styles from "../../../styles/skeleton.module.css";
 
 const ProductSkeleton: React.FC = () => {
   const skeletonArray = new Array(8).fill(0);
