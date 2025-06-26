@@ -1,11 +1,13 @@
-.product-img-wrapper {
+/* src/styles/product.module.css */
+
+.productImgWrapper {
   position: relative;
   width: 100%;
   padding-top: 75%; /* 4:3 aspect ratio */
   overflow: hidden;
 }
 
-.product-img-wrapper img {
+.productImgWrapper img {
   position: absolute;
   top: 0;
   left: 0;
@@ -14,10 +16,11 @@
   object-fit: contain;
 }
 
-.link-dark {
+.linkDark {
   text-decoration: none;
+  color: black;
 }
 
-.link-dark:hover {
+.linkDark:hover {
   text-decoration: underline;
 }
